@@ -7,8 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
-/* header section */
+/* Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,41 +40,23 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/* only .a was previously used which would apply this styling to all a tags rather than just ones in the header, added .header incase .a will be different elsewhere */
-
-.header a {
+/* Global */
+a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* The below .hero has been removed but preserved since the code since the tag is not being utilized (no content); see HTML for same action */
-/* .hero {
+p {
+    font-size: 16px;
+}
+
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-} */
-
-/* content section */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.contentDetails {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.contentDetails p {
-    font-size: 16px;
 }
 
 .float-left {
@@ -88,18 +69,47 @@ body {
     margin-left: 25px;
 }
 
-/* removed reduncancies, consolidated since same h2 and img styling were being used across the three sections */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
-.contentDetails img {
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Consolidated below since they were following the same styling per subsection */
+.content img {
     max-height: 200px;
 }
 
-.contentDetails h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* Benefits Section */
 
 .benefits {
     margin-right: 20px;
@@ -112,25 +122,23 @@ body {
     background-color: #2589bd;
 }
 
-/* removed reduncancies, consolidated since same h3 and img styling were being used across the three sections */
-
-.benefitsDetails {
+/* Benefits I consolidated the below sections as they were following the same styling */
+.benefits-details {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefitsDetails h3{
+.benefits-details h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} 
 
-.benefitsDetails img {
+.benefits-details img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* footer section */
 .footer {
     padding: 30px;
     clear: both;
